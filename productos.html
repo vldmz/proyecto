@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="estilos_segundo_parcial.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" type="image/png" href="logopag.png">
+  <!-- Bootstrap Icons (colócalo en el <head>) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet" />
+
+
+  <title>Dropbox</title>
+ 
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm" id="mainNavbar">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <div class="logo-icon me-2">
+          <img src="logopag.png" alt="Logo" width="40" height="40">  <!--icono principal-->
+        </div>
+        <span class="fw-bold fs-4">Dropbox</span>
+      </a>
+
+      <!-- Botón menú móvil -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Enlaces -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-3">
+         
+         
+            <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="bi bi-house me-1"></i>Inicio</a>
+          </li>
+          
+          
+          <li class="nav-item">
+            <a class="nav-link active" href="productos.html"><i class="bi bi-file-text me-1"></i>productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="politicas_de_privacidad.html"><i class="bi bi-lock-fill me-2"></i>politicas de privacidad</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactos.html"><i class="bi bi-envelope me-1"></i>Contacto</a>
+          </li>
+          
+        </ul>
+
+        <!-- Modo oscuro -->
+        <button class="btn btn-outline-secondary me-2" id="darkModeToggle" title="Cambiar tema">
+          <i class="bi bi-moon-fill" id="darkModeIcon"></i>
+        </button>
+
+        <!-- Redes sociales -->
+        <div class="d-flex gap-2">
+          <a href="https://twitter.com/datatools" class="btn btn-outline-primary btn-sm" target="_blank">
+            <i class="bi bi-twitter"></i>
+          </a>
+          <a href="https://linkedin.com/company/datatools" class="btn btn-outline-primary btn-sm" target="_blank">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/datatools" class="btn btn-outline-primary btn-sm" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    </nav>
+
+
+    <div class="container d-flex justify-content-center my-4">
+  <form class="d-flex" role="search" style="max-width: 400px; width: 100%;">
+    <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Buscar">
+    <button class="btn btn-outline-primary" type="submit">Buscar</button>
+  </form>
+</div>
+
+<div class="d-flex">
+  <!-- Sidebar izquierdo -->
+  <div class="bg-primary text-white p-3 vh-100 redondeo">
+    <h4>Menú</h4>
+    <ul class="nav flex-column">
+      <li class="nav-item"><a class="nav-link text-white" href="#">Inicio</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Productos</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Servicios</a></li>
+      <li class="nav-item"><a class="nav-link text-white" href="#">Contacto</a></li>
+    </ul>
+  </div>
+
+
+  <!-- Contenedor derecho con secciones apiladas -->
+  <div class="flex-grow-1 bg-light vh-100 overflow-auto p-3">
+    <!-- Bloque 1 -->
+    <div class="bg-white p-4 mb-3 border rounded shadow-sm d-flex align-items-center integration-card">
+  <img src="https://i.pinimg.com/736x/c0/4b/06/c04b06afb00a072940e200a2b31a08d6.jpg" alt="Imagen ejemplo" class="img-fluid me-3 rounded" style="width: 100px; height: auto;">
+  <div>
+    <h5>nike air max 270</h5>
+    <p>Este es un bloque que contiene una imagen a la izquierda y texto a la derecha.</p>
+  </div>
+</div>
+
+
+<div class="bg-white p-4 mb-3 border rounded shadow-sm d-flex align-items-center integration-card">
+  <img src="https://i.pinimg.com/736x/fa/ce/34/face3446af98a61fca6c772d79a1945e.jpg" alt="Imagen ejemplo" class="img-fluid me-3 rounded" style="width: 100px; height: auto;">
+  <div>
+    <h5>pantalon baggy color negro</h5>
+    <p>Este es un bloque que contiene una imagen a la izquierda y texto a la derecha.</p>
+  </div>
+</div>
+
+
+<div class="bg-white p-4 mb-3 border rounded shadow-sm d-flex align-items-center integration-card">
+  <img src="https://i.pinimg.com/736x/81/11/27/811127fc3b06ed0d25fab4647ac7745e.jpg" alt="Imagen ejemplo" class="img-fluid me-3 rounded" style="width: 100px; height: auto;">
+  <div>
+    <h5>Sudadera con capucha</h5>
+    <p>Este es un bloque que contiene una imagen a la izquierda y texto a la derecha.</p>
+  </div>
+</div>
+
+
+<div class="bg-white p-4 mb-3 border rounded shadow-sm d-flex align-items-center integration-card">
+  <img src="https://i.pinimg.com/736x/54/9c/e2/549ce242b4cb4591fac9a8e168965185.jpg" alt="Imagen ejemplo" class="img-fluid me-3 rounded" style="width: 100px; height: auto;">
+  <div>
+    <h5>jordan 4 retro rojo</h5>
+    <p>Este es un bloque que contiene una imagen a la izquierda y texto a la derecha.</p>
+  </div>
+</div>
+
+
+<div class="bg-white p-4 mb-3 border rounded shadow-sm d-flex align-items-center integration-card">
+  <img src="https://i.pinimg.com/736x/48/7e/c3/487ec303850fae973c9facf9f4bf63e4.jpg" alt="Imagen ejemplo" class="img-fluid me-3 rounded" style="width: 100px; height: auto;">
+  <div>
+    <h5>pulcera mixta</h5>
+    <p>Este es un bloque que contiene una imagen a la izquierda y texto a la derecha.</p>
+  </div>
+</div>
+
+
+<div class="bg-white p-4 mb-3 border rounded shadow-sm d-flex align-items-center integration-card">
+  <img src="https://i.pinimg.com/736x/f6/1e/63/f61e6366bd935df93c1c5aab568ab9ba.jpg" alt="Imagen ejemplo" class="img-fluid me-3 rounded" style="width: 100px; height: auto;">
+  <div>
+    <h5>hoddie morado</h5>
+    <p>Este es un bloque que contiene una imagen a la izquierda y texto a la derecha.</p>
+  </div>
+</div>
+
+
+</div>
+
+
+
+
+
+    <script src="script_segundo_parcial.js"></script>
+    </body>
+    </html>
